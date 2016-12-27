@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Sample Action Set"
+            visible="true"
+            id="de.unimannheim.infor.swt.uim.actionSet">
+         <menu
+               label="UIM"
+               id="UIMMenu">
+            <separator
+                  name="sampleGroupuim">
+            </separator>
+         </menu>
+         <action
+               label="&amp;UIM Service2.0"
+               icon="icons/sample.gif"
+               class="de.unimannheim.infor.swt.uim.actions.SampleActiondz"
+               tooltip="UIM Service2.0"
+               menubarPath="UIMMenu/sampleGroupuim"
+               toolbarPath="sampleGroupuim"
+               id="de.unimannheim.infor.swt.uim.actions.SampleActiondz">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>

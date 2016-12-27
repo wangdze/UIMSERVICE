@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.unimannheim.infor.swt.uim.feature_1.0.0.qualifier.jar" id="de.unimannheim.infor.swt.uim.feature" version="1.0.0.qualifier">
+      <category name="UIMfeatureid"/>
+   </feature>
+   <category-def name="UIMfeatureid" label="UIM Core"/>
+</site>

@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PLM="http://melanee.org/PLM" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <PLM:Domain>
+    <deepModel xsi:type="PLM:DeepModel" name="headhunter">
+      <visualizer>
+        <attributes>name= default</attributes>
+        <attributes>showClassificationConnectionEndNames = false</attributes>
+      </visualizer>
+      <content name="O0">
+        <visualizer>
+          <attributes>name= default</attributes>
+          <attributes>text= derived</attributes>
+          <attributes>graph= derived</attributes>
+          <attributes>form= derived</attributes>
+          <attributes>table= derived</attributes>
+          <attributes>app= derived</attributes>
+        </visualizer>
+        <content xsi:type="PLM:Entity" name="RootNode">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+        </content>
+        <content xsi:type="PLM:Entity" name="RootConnector">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+        </content>
+      </content>
+      <content name="O1">
+        <visualizer>
+          <attributes>name= default</attributes>
+          <attributes>text= derived</attributes>
+          <attributes>graph= derived</attributes>
+          <attributes>form= derived</attributes>
+          <attributes>table= derived</attributes>
+          <attributes>app= derived</attributes>
+        </visualizer>
+        <content xsi:type="PLM:Entity" name="Occupation">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+        </content>
+        <content xsi:type="PLM:Entity" name="Performer">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="paid">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+        </content>
+        <content xsi:type="PLM:Entity" name="Profession">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="paid">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="education">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="retired">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+        </content>
+        <content xsi:type="PLM:Entity" name="Organization">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+        </content>
+        <content xsi:type="PLM:Connection" name="isPaidby">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>transitive= default</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+            <attributes>collapsed= false</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="permanent">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="monthySalary">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="hourlyRate">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <connectionEnd destination="/0/@deepModel.0/@content.1/@content.3"/>
+          <connectionEnd destination="/0/@deepModel.0/@content.1/@content.2"/>
+        </content>
+      </content>
+      <content name="O2">
+        <visualizer>
+          <attributes>name= default</attributes>
+          <attributes>text= derived</attributes>
+          <attributes>graph= derived</attributes>
+          <attributes>form= derived</attributes>
+          <attributes>table= derived</attributes>
+          <attributes>app= derived</attributes>
+        </visualizer>
+        <content xsi:type="PLM:Entity" name="Musician">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="paid">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="Instrument">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+        </content>
+        <content xsi:type="PLM:Entity" name="ITProfession">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="paid">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="education">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="retired">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+        </content>
+        <content xsi:type="PLM:Entity" name="SoftwareCompayn">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+        </content>
+        <content xsi:type="PLM:Entity" name="Consultant">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+        </content>
+        <content xsi:type="PLM:Entity" name="StudentAppentice">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+        </content>
+        <content xsi:type="PLM:Connection" name="isPaidby0">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>transitive= default</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+            <attributes>collapsed= false</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="permanent">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="monthySalary">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="hourlyRate">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <connectionEnd destination="/0/@deepModel.0/@content.2/@content.1"/>
+          <connectionEnd destination="/0/@deepModel.0/@content.2/@content.2"/>
+        </content>
+        <content xsi:type="PLM:Connection" name="isPaidby1">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>transitive= default</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+            <attributes>collapsed= false</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="permanent">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="monthySalary">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="hourlyRate">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <connectionEnd destination="/0/@deepModel.0/@content.2/@content.2"/>
+          <connectionEnd destination="/0/@deepModel.0/@content.2/@content.3"/>
+        </content>
+        <content xsi:type="PLM:Connection" name="isPaidby2">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>transitive= default</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+            <attributes>collapsed= false</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="permanent">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="monthySalary">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="hourlyRate">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <connectionEnd destination="/0/@deepModel.0/@content.2/@content.2"/>
+          <connectionEnd destination="/0/@deepModel.0/@content.2/@content.4"/>
+        </content>
+      </content>
+      <content name="O3">
+        <visualizer>
+          <attributes>name= default</attributes>
+          <attributes>text= derived</attributes>
+          <attributes>graph= derived</attributes>
+          <attributes>form= derived</attributes>
+          <attributes>table= derived</attributes>
+          <attributes>app= derived</attributes>
+        </visualizer>
+        <content xsi:type="PLM:Entity" name="Mr.Smith">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="Instrument">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+        </content>
+        <content xsi:type="PLM:Entity" name="TomMiller">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="retired">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="education">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="paid">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+        </content>
+        <content xsi:type="PLM:Entity" name="BillGates">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="retired">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="education">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="paid">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+        </content>
+        <content xsi:type="PLM:Entity" name="Mircrosoft">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+        </content>
+        <content xsi:type="PLM:Connection" name="isPaidbyMS1">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>transitive= default</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+            <attributes>collapsed= false</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="hourlyRate">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="monthySalary">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <connectionEnd destination="/0/@deepModel.0/@content.3/@content.3"/>
+          <connectionEnd destination="/0/@deepModel.0/@content.3/@content.2"/>
+        </content>
+        <content xsi:type="PLM:Connection" name="isPaidbyMS2">
+          <visualizer>
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>transitive= default</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+            <attributes>collapsed= false</attributes>
+          </visualizer>
+          <feature xsi:type="PLM:Attribute" name="monthySalary">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xsi:type="PLM:Attribute" name="hourlyRate">
+            <visualizer>
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <connectionEnd destination="/0/@deepModel.0/@content.3/@content.3"/>
+          <connectionEnd destination="/0/@deepModel.0/@content.3/@content.1"/>
+        </content>
+      </content>
+    </deepModel>
+  </PLM:Domain>
+  <notation:Diagram type="LML" element="/0" name="headhunter.lml" measurementUnit="Pixel">
+    <children type="2005" element="/0/@deepModel.0">
+      <children xsi:type="notation:DecorationNode" type="5331"/>
+      <children xsi:type="notation:DecorationNode" type="5332"/>
+      <children xsi:type="notation:BasicCompartment" type="7061">
+        <styles xsi:type="notation:SortingStyle"/>
+        <styles xsi:type="notation:FilteringStyle"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" type="7062"/>
+      <styles xsi:type="notation:DescriptionStyle"/>
+      <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
+      <styles xsi:type="notation:FillStyle"/>
+      <layoutConstraint xsi:type="notation:Bounds"/>
+    </children>
+    <styles xsi:type="notation:DiagramStyle"/>
+  </notation:Diagram>
+</xmi:XMI>

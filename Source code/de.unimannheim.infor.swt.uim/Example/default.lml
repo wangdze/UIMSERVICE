@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:PLM="http://melanee.org/PLM" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <PLM:Domain xmi:id="_LoFjIBoMEeatzrxFsuaSUg">
+    <deepModel xmi:type="PLM:DeepModel" xmi:id="_MB6YYBoMEeatzrxFsuaSUg" name="dp">
+      <visualizer xmi:type="PLM:LMLVisualizer" xmi:id="_MB80oBoMEeatzrxFsuaSUg">
+        <attributes>name= default</attributes>
+        <attributes>showClassificationConnectionEndNames = false</attributes>
+      </visualizer>
+      <content xmi:type="PLM:Level" xmi:id="_qz30QBoNEeatzrxFsuaSUg" name="O0">
+        <visualizer xmi:type="PLM:LMLVisualizer" xmi:id="_qz30QRoNEeatzrxFsuaSUg">
+          <attributes>name= default</attributes>
+          <attributes>text= derived</attributes>
+          <attributes>graph= derived</attributes>
+          <attributes>form= derived</attributes>
+          <attributes>table= derived</attributes>
+          <attributes>app= derived</attributes>
+        </visualizer>
+        <content xmi:type="PLM:Entity" xmi:id="_rKXosBoNEeatzrxFsuaSUg" name="Entity">
+          <visualizer xmi:type="PLM:LMLVisualizer" xmi:id="_rKXosRoNEeatzrxFsuaSUg" xLocation="200" yLocation="0" width="111" height="83">
+            <attributes>name= default</attributes>
+            <attributes>potency= default</attributes>
+            <attributes>levelIndex= noshow</attributes>
+            <attributes>ProximityClassification= 1</attributes>
+            <attributes>text= derived</attributes>
+            <attributes>graph= derived</attributes>
+            <attributes>form= derived</attributes>
+            <attributes>table= derived</attributes>
+            <attributes>app= derived</attributes>
+            <attributes>DSLRendering= false</attributes>
+            <attributes>ProximityIndication= name:1</attributes>
+          </visualizer>
+          <feature xmi:type="PLM:Attribute" xmi:id="_uSt5sBoNEeatzrxFsuaSUg" name="Attribute" durability="1" mutability="1">
+            <visualizer xmi:type="PLM:LMLVisualizer" xmi:id="_uSt5sRoNEeatzrxFsuaSUg">
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>value= default</attributes>
+              <attributes>mutability= default</attributes>
+              <attributes>datatype= default</attributes>
+            </visualizer>
+          </feature>
+          <feature xmi:type="PLM:Method" xmi:id="_vQODwBoNEeatzrxFsuaSUg" name="Method" durability="1">
+            <visualizer xmi:type="PLM:LMLVisualizer" xmi:id="_vQODwRoNEeatzrxFsuaSUg">
+              <attributes>name= default</attributes>
+              <attributes>durability= default</attributes>
+              <attributes>body= default</attributes>
+            </visualizer>
+          </feature>
+        </content>
+      </content>
+    </deepModel>
+  </PLM:Domain>
+  <notation:Diagram xmi:id="_LoGxQBoMEeatzrxFsuaSUg" type="LML" element="_LoFjIBoMEeatzrxFsuaSUg" name="default.lml" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_MCHMsBoMEeatzrxFsuaSUg" type="2005" element="_MB6YYBoMEeatzrxFsuaSUg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MCHzwBoMEeatzrxFsuaSUg" type="5331"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MCHzwRoMEeatzrxFsuaSUg" type="5332"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MCHzwhoMEeatzrxFsuaSUg" type="7061">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MCHzwxoMEeatzrxFsuaSUg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MCHzxBoMEeatzrxFsuaSUg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MCHzxRoMEeatzrxFsuaSUg" type="7062">
+        <children xmi:type="notation:Shape" xmi:id="_qz6QgBoNEeatzrxFsuaSUg" type="3097" element="_qz30QBoNEeatzrxFsuaSUg" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qz6QghoNEeatzrxFsuaSUg" type="5320"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_qz6QgxoNEeatzrxFsuaSUg" type="5321"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_qz6QhBoNEeatzrxFsuaSUg" type="7046">
+            <children xmi:type="notation:Node" xmi:id="_rKY20BoNEeatzrxFsuaSUg" type="3120" element="_rKXosBoNEeatzrxFsuaSUg">
+              <children xmi:type="notation:DecorationNode" xmi:id="_rKY21RoNEeatzrxFsuaSUg" type="5314"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_rKY21hoNEeatzrxFsuaSUg" type="5315"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_rKY21xoNEeatzrxFsuaSUg" type="5316"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_rKY22BoNEeatzrxFsuaSUg" type="5317"/>
+              <children xmi:type="notation:DecorationNode" xmi:id="_rKY22RoNEeatzrxFsuaSUg" type="5318">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_rKY22hoNEeatzrxFsuaSUg"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_rKY22xoNEeatzrxFsuaSUg" type="5319">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_rKY23BoNEeatzrxFsuaSUg"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rKY23RoNEeatzrxFsuaSUg" y="5"/>
+              </children>
+              <children xmi:type="notation:BasicCompartment" xmi:id="_rKY23hoNEeatzrxFsuaSUg" type="7058">
+                <children xmi:type="notation:Shape" xmi:id="_uTIJYBoNEeatzrxFsuaSUg" type="3106" element="_uSt5sBoNEeatzrxFsuaSUg" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uTIwcBoNEeatzrxFsuaSUg" type="5269"/>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uTIwcRoNEeatzrxFsuaSUg" type="5270"/>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uTIwchoNEeatzrxFsuaSUg" type="5271"/>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uTIwcxoNEeatzrxFsuaSUg" type="5272"/>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uTIwdBoNEeatzrxFsuaSUg" type="5273"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uTIJYRoNEeatzrxFsuaSUg"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_rKY23xoNEeatzrxFsuaSUg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_rKY24BoNEeatzrxFsuaSUg"/>
+              </children>
+              <children xmi:type="notation:BasicCompartment" xmi:id="_rKY24RoNEeatzrxFsuaSUg" type="7059">
+                <children xmi:type="notation:Shape" xmi:id="_vQbfIBoNEeatzrxFsuaSUg" type="3108" element="_vQODwBoNEeatzrxFsuaSUg" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_vQbfIhoNEeatzrxFsuaSUg" type="5276"/>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_vQbfIxoNEeatzrxFsuaSUg" type="5277"/>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_vQbfJBoNEeatzrxFsuaSUg" type="5278"/>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_vQbfJRoNEeatzrxFsuaSUg" type="5279"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vQbfIRoNEeatzrxFsuaSUg"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_rKY24hoNEeatzrxFsuaSUg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_rKY24xoNEeatzrxFsuaSUg"/>
+              </children>
+              <children xmi:type="notation:BasicCompartment" xmi:id="_rKZd4BoNEeatzrxFsuaSUg" visible="false" type="7060"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_rKY20RoNEeatzrxFsuaSUg"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_rKY20hoNEeatzrxFsuaSUg" fontName="Segoe UI"/>
+              <styles xmi:type="notation:FillStyle" xmi:id="_rKY20xoNEeatzrxFsuaSUg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rKY21BoNEeatzrxFsuaSUg" x="200" width="111" height="83"/>
+            </children>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qz6QgRoNEeatzrxFsuaSUg" width="1097" height="139"/>
+        </children>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_MCHMsRoMEeatzrxFsuaSUg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MCHMshoMEeatzrxFsuaSUg" fontName="Segoe UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_MCHMsxoMEeatzrxFsuaSUg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MCHMtBoMEeatzrxFsuaSUg" x="4" y="4" width="609"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_LoGxQRoMEeatzrxFsuaSUg"/>
+  </notation:Diagram>
+</xmi:XMI>
